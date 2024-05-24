@@ -591,3 +591,59 @@ body{
   color: #111022;
   border: #111022 2px solid;
 }
+
+
+/* Dialog Box */
+dialog::backdrop{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+dialog {
+  width: 500px;
+  border: none;
+  color: #111022;
+  background-color: #F2F2F2;
+  border-radius: 5px;
+}
+dialog button{
+  display: block;
+  width: 450px;
+  height: 45px;
+  margin: 35px auto;
+  margin-bottom: 15px;
+  background: #111022;
+  color: white;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: 20px;
+  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.25) );
+  transition: all 0.3s ease;
+}
+dialog button:hover{
+  background: white;
+  color: #111022;
+  border: #111022 2px solid;
+}
+dialog h3{
+  margin: 0;
+}
+dialog p{
+  margin-top: 0px;
+  margin-bottom: 25px;
+
+}
+dialog .dialog-header{
+  margin: 0;
+  font-size: larger;
+  color: #111022;
+  text-align: center;
+}
+dialog .dialog-header{
+  font-size: larger;
+  color: #111022;
+  text-align: center;
+}
+dialog h2{
+  margin: 0;
+  margin-bottom: 15px;
+}
